@@ -1,0 +1,16 @@
+# compiled
+bin/
+
+# env file
+.env
+
+# schema dump
+db/schema.sql
+
+# testing coverage
+*.out
+*.lcov
+
+vendor/
+.vscode
+__debug_bin*
