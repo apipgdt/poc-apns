@@ -3,10 +3,16 @@ module github.com/apipgdt/poc-apns
 go 1.21.1
 
 require (
+	github.com/ilyakaznacheev/cleanenv v1.5.0
+	github.com/joho/godotenv v1.5.1
+)
+
+require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
-	github.com/ilyakaznacheev/cleanenv v1.5.0 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
-	github.com/mduvall/go-apns v0.0.0-20130619071602-173baff406d8 // indirect
+	github.com/golang-jwt/jwt/v4 v4.4.1 // indirect
+	github.com/sideshow/apns2 v0.23.0 // indirect
+	golang.org/x/net v0.0.0-20220403103023-749bd193bc2b // indirect
+	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	olympos.io/encoding/edn v0.0.0-20201019073823-d3554ca0b0a3 // indirect
 )
